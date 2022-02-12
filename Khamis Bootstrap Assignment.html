@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--General Links For Boostrap and Java Script-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--CDN for Fonts From Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+	
+	<!--CDN for Icons From Font Awesome
+	<script src="https://kit.fontawesome.com/197d1cb87f.js"></script>
+	<link rel="stylesheet"  href="fonts/fontawesome/css/font-awesome.min.css">-->
+
+	<script src="https://kit.fontawesome.com/c95b50c83e.js" crossorigin="anonymous"></script>
+
+	<title>Khamis Bootstrap Assignment</title>
+	<style>
+		#items{
+			font-weight: bold;
+		}
+		#list{
+			font-weight: bold;
+		}
+		#mar{
+			color: skyblue;
+		}
+		#Price{
+			font-weight: bold;
+			
+			align-content: center;
+
+		}
+		#Con{
+			background-color: skyblue;
+			font-weight: bold;
+		}
+		#lis { 
+			list-style-type: none;
+
+		}
+		#lis a{ 
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		#lis i{
+			margin-right: 10px;3
+
+		}
+		.ftr{
+			background-color: gray;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+	<a href="#" class="navbar-brand"><img src="LOGO.png" style="width:50px; height: 50px;"></a>
+	<ul class="navbar-nav ml-auto" id="items">
+		<li class="nav-item"><a href="#Con" class="nav-link" >Contact Us</a>
+		<li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+		<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+			<div class="dropdown-menu">
+				<a href="#" class="dropdown-item">Sales</a>
+				<a href="#" class="dropdown-item">Support</a>
+				<a href="#" class="dropdown-item">Maintenance</a>
+			</div>
+		</li>
+		<li class="nav-item"><a href="#" class="nav-link">Product</a></li>
+		<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+	  
+	</ul>
+
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+	<ul class="navbar-nav" id="list">
+		<li class="nav-item"><a href="#S1500" class="nav-link">Siemens S7 1500</a></li>
+		<li class="nav-item"><a href="#S1200" class="nav-link">Siemens S7 1200</a></li>
+		<li class="nav-item"><a href="#S400" class="nav-link">Siemens S7 400</a></li>
+	</ul>
+</nav>
+<marquee id="mar" direction="left" scrollamoun="10"><h2>Buy Any System with Programming and Get Discount 20%</h2></marquee>
+<img src="df-playground-a-iso2.jpg" width="100%">
+<section>
+<div class="container">
+	<h1 style="text-align: center;" id="S1500">Siemens S7 1500</h1>
+	<div class="row">
+		<div class="col-lg-4"><a href="#"><img src="P_ST70_XX_07829I.jpg" width="250px" height="250px"></a>
+			<div id="Price" style="text-align: center; ">
+				<span >5500 $</span>
+				<button style="font-weight: bold;">Buy</button>
+			</div>
+		</div>
+		<div class="col-lg-4"><a href="#"><img src="P_ST70_XX_06550I.jpg" width="250px" height="250px"></a>
+			<div id="Price" style="text-align: center; ">
+				<span >2500 $</span>
+				<button style="font-weight: bold;">Buy</button>
+			</div>
+		</div>
+		<div class="col-lg-4"><a href="#"><img src="P_IK10_XX_02253i.jpg" width="250px" height="250px"></a>
+			<div id="Price" style="text-align: center; ">
+				<span >1500 $</span>
+				<button style="font-weight: bold;">Buy</button>
+			</div>
+		</div>
+
+	</div>
+</section>
+<section>
+	<h1 style="text-align: center;" id="S1200">Siemens S7 1200</h1>
+	<div class="row">
+		<div class="col-lg-4"><a href="#"><img src="P_ST70_XX_06815i.jpg" width="250px" height="250px"></a>
+			<div id="Price" style="text-align: center; ">
+				<span >400 $</span>
+				<button style="font-weight: bold;">Buy</button>
+			</div>
+		</div>
+		<div class="col-lg-4"><a href="#"><img src="P_ST70_XX_06816i.jpg" width="250px" height="250px"></a>
+			<div id="Price" style="text-align: center; ">
+				<span >500 $</span>
+				<button style="font-weight: bold;">Buy</button>
+			</div>
+		</div>
+		<div class="col-lg-4"><a href="#"><img src="P_ST70_XX_04521i.jpg" width="250px" height="250px"></a>
+			<div id="Price" style="text-align: center; ">
+				<span >200 $</span>
+				<button style="font-weight: bold;">Buy</button>
+			</div>
+		</div>
+
+	</div>
+</section>
+<section>	
+	<h1 style="text-align: center;" id="S400">Siemens S7 400</h1>
+	<div class="row">
+		<div class="col-lg-4"><a href="#"><img src="P_ST70_XX_02862i.jpg" width="250px" height="250px"></a>
+			<div id="Price" style="text-align: center; ">
+				<span >500 $</span>
+				<button style="font-weight: bold;">Buy</button>
+			</div>
+		</div>
+		<div class="col-lg-4"><a href="#"><img src="P_IK10_XX_01085i.jpg" width="250px" height="250px"></a>
+			<div id="Price" style="text-align: center; ">
+				<span >7500 $</span>
+				<button style="font-weight: bold;">Buy</button>
+			</div>
+		</div>
+		<div class="col-lg-4"><a href="#"><img src="P_IK10_XX_00184i.jpg" width="250px" height="250px"></a>
+			<div id="Price" style="text-align: center; ">
+				<span >9500 $</span>
+				<button style="font-weight: bold;">Buy</button>
+			</div>
+		</div>
+
+	</div>
+</section>
+</div>
+<section>
+	<div class="container-fluid" id="Con">
+		<h1>Contact Us</h1>
+		<div class="form-group">
+    		<label for="name1">Fist Name:</label>
+    		<input type="text" class="form-control" name="name1" id="name1">
+    	</div>
+		<div class="form-group">
+    		<label for="name2">Last Name:</label>
+    		<input type="text" class="form-control" name="name2" id="name2">
+    	</div>
+		<div class="form-group">
+    		<label for="name3">Choose Your Country:</label>
+   		 	<select class="form-control" id="name3"> 
+    			<option value="Jordan">Jordan</option>
+				<option value="Egypt">Egypt</option>
+				<option value="Saudi Arabia">Saudi Arabia</option>
+				<option value="UAE">UAE</option>
+				<option value="Syria">Syria</option>
+    		</select>
+ 	    </div>    
+  	    <div class="form-group">
+  		  	<label for="name4">Any Suggestions!</label>
+   			<textarea class="form-control" id="name4" rows="6" placeholder=" Write Here..."> </textarea>
+ 		</div>
+		<input type="submit" name="submit" value="submit" style="font-weight: bold; width: 100px; height: 40px; background-color: black; color: white;" class="mb-3">
+	</div>
+</section>
+<footer class="ftr">
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-5 mt-5 " >
+			<img src="LOGO.png" width="70px" height="70px">
+		</div>
+		<div class="col-lg-6" >
+			<h2>Connect On Social</h2>
+			<ul id="lis">
+				<li><a href="#"><i class="fa-brands fa-facebook-square"></i>FaceBook</a></li>
+				<li><a href="#"><i class="fa-brands fa-whatsapp-square"></i>WhatsApp</a></li>
+				<li><a href="#"><i class="fa-brands fa-twitter-square"></i>Twitter</a></li>
+
+			</ul>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
